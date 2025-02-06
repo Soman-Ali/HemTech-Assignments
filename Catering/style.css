@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 /* header {
   width: 100%;
@@ -480,3 +481,20 @@ background-size: cover;
   font-size: 16px;
   margin: 5px 0;
 }
+
+/* .our-work{
+  border: 1px solid black;
+ margin-top: 550px ;
+ padding: 90px;
+ /* display: flex;
+ justify-content: center;
+ align-items: center; */
+/* }
+.sec-5{
+  border: 1px solid black;
+  text-align: center;
+}
+.sec-5 h1{
+  margin: 20px 0;
+  
+} */ 
