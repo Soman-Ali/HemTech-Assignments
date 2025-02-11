@@ -827,3 +827,19 @@ height: 95vh;
     margin: 10px 0;
   }
 }
+  /* .section-book-now{
+    background-clip: url(Assets/Video.mp4);
+    width: 100%;
+  } */
+
+  .section-book-now{
+    border: 1px solid black;
+    margin: 200px 0;
+    text-align: center;
+    line-height: 40px;
+    padding: auto 0;
+    height: 100vh;
+     /* display: flex;
+    flex-direction: column;
+    align-items: center;  */
+  }
