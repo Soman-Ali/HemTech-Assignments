@@ -888,24 +888,31 @@ height: 95vh;
     
   } */
 
-  .sec-9{
+  /* .sec-9{
     border: 1px solid black;
-  }
+  } */
   .our-blog{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-align: center;
     line-height: 40px;
+  
   }
   .our-blog h2{
+    margin: 10px 0;
     color: rgb(255, 115, 0);
   font-style: italic;
   font-family: Italiann;
   font-weight: lighter;
   }
+  .our-blog p{
+    padding: 0 500px;
+    line-height: 25px;
+    margin: 20px 0 60px 0;
+  }
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 30px;
     max-width: 1200px;
     margin: auto;
 }
@@ -921,12 +928,12 @@ height: 95vh;
     transform: scale(1.05);
 }
 .card img {
-    width: 40%;
+    width: 45%;
     height: auto;
     object-fit: cover;
 }
 .card-content {
-    padding: 15px;
+    padding: 25px 40px;
     width: 60%;
 }
 .card-content h3 {
@@ -944,8 +951,10 @@ height: 95vh;
     margin-bottom: 10px;
 }
 .read-more {
+  font-size: 12px;
+
     color: orangered;
-    font-weight: bold;
+    font-weight:lighter;
     text-decoration: none;
 }
 .read-more:hover {
@@ -965,4 +974,90 @@ height: 95vh;
     .card-content {
         width: 100%;
     }
+}
+.footer {
+  margin-top: 80px;
+  background-color: #000;
+  padding: 50px 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer-img{
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  gap: 20px;
+}
+.footer img{
+  width: 70px;
+}
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+.footer-column p{
+  color: #fff;
+  padding:10px 15px 10px 0;
+  font-size: 14px;
+}
+.footer-column h3 {
+  color: #ff7b00;
+  margin-bottom: 15px;
+}
+.footer-column ul {
+  list-style: none;
+}
+.footer-column ul li {
+  margin-bottom: 15px;
+}
+.footer-column ul li a {
+  text-decoration: none;
+  color: white;
+}
+.footer-column ul li a:hover{
+  color: #ff7b00;
+}
+.newsletter {
+  display: flex;
+  align-items: center;
+}
+.newsletter input {
+  padding: 10px;
+  border: none;
+  flex: 1;
+  margin: 10px 0;
+}
+.newsletter button {
+  background-color: #ff7b00;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  cursor: pointer;
+}
+.payment-icons{
+  margin-top: 15px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.payment-icons img {
+  width: 35px;
+  margin-right: 25px;
+}
+.footer-bottom {
+  color: #fff;
+  background-color: black;
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #333;
+}
+@media (max-width: 768px) {
+  .footer {
+      flex-direction: column;
+      text-align: center;
+  }
 }
